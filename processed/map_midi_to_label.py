@@ -12,7 +12,7 @@ LABEL_MAP = {i: label for i, label in enumerate(LABEL_LIST)}
 PIANIST_MAP = OrderedDict()
 
 # file = open('/data1/jongho/muzic/musicbert/processed/total.csv', encoding="utf-8")
-file = open('total.csv', encoding="utf-8")
+file = open('processed/total.csv', encoding="utf-8")
 
 def estimate_maxima(data):
     if len(set(data))<=1: # all datas are equal

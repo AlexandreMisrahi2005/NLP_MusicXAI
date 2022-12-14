@@ -27,3 +27,4 @@ textrank4zh==0.3
 music21
 mido
 pretty_midi
+pandas
